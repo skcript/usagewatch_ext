@@ -5,7 +5,7 @@ module UsagewatchExt
 
   if OS.include? "darwin"
     require "usagewatch_ext/mac"
-    puts "Mac version is under development"
+    # puts "Mac version is under development"
   elsif OS.include? "linux"
     require "usagewatch/linux"
     require "usagewatch_ext/linux"
